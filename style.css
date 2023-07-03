@@ -1,0 +1,160 @@
+*{ margin: 0px;
+}
+#menusuperior{
+    background-color: #303030;
+    margin: 0px;
+}
+#titulo{
+    color: #ffffff;
+    font-family: "inter";
+    font-size: 60px;
+    padding-left: 72px;
+    padding-top: 200px;
+}
+
+#sub-titulo{
+    color: #ffffff;
+    font-family: "inter";
+    font-size: 20px;
+    padding-left: 72px;
+    padding-top: 10px;
+    padding-bottom: 130px;
+
+}
+
+#menuinformacional{
+    background-color: #f9f9f9;
+    font-family: "inter";
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+    padding-top: 70px;
+    padding-left: 150px;
+    padding-bottom: 60px;
+
+}
+
+.dados-titulo{
+    font-weight: 600;
+    font-size: 40px;
+
+}
+
+.dados{
+    font-weight: 400;
+    font-size: 25px;
+
+
+}
+
+.texto-informativo{
+    padding-top: 100px;
+    padding-bottom: 50px;
+    padding-left: 200px;
+    padding-right: 100px;
+}
+#seçãoimagem{
+    margin: 0px;
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+}
+#titulo-apresentação{
+    font-size: 40px;
+    font-family: "inter";
+    padding-top: 25%;
+    margin-left: 70px;
+    margin-right: 125px;
+}
+#texto-apresentação{
+    font-family: "inter";
+    font-size: 25px;
+    margin-left: 70px;
+}
+
+#imagem-1{
+ margin-top: 100px;
+ margin-bottom: 100px;
+ display: flex;
+}
+
+#imagem-2{
+    width: 510px;
+    height: 605px;
+    top: 781px;
+    left: 876px;
+    border: 0px;
+    border-radius: 30px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: none;
+}
+
+#imagem-3{
+    width: 510px;
+    height: 605px;
+    top: 781px;
+    left: 876px;
+    border: 0px;
+    border-radius: 30px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: none;
+}
+
+.imagens{
+    cursor: pointer;
+
+}
+
+#formulario{
+    text-align: center;
+    background-color: #303030;
+}
+#titulo-formulario{
+    text-align: center;
+    color: #ffffff;
+    font-family:"inter";
+    font-size: 25px ;
+    padding-top: 70px;
+    padding-bottom: 20px;
+}
+
+input{
+    width: 400px;
+    height: 50px;
+    margin: 30px;
+
+    font-family: "raleway";
+    border: 0px;
+    border-radius: 8px;
+    font-size: 20px;
+    text-align: justify;
+    padding-left: 25px;
+}
+
+button{
+    font-family: "raleway";
+    font-size: 20px;
+    width: 250px;
+    height: 50px;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    background-color: #c07212;
+    color: #ffffff;
+    border: 0px;
+    border-radius: 8px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #cc7d1c;
+    color: #ffffff;
+    transform: translateY(-7px);
+    transition-duration:0.6s;
+    box-shadow: 0px 15px 20px #ffffff;
+
+}
+
+
